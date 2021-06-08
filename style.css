@@ -1,0 +1,64 @@
+body {
+    font-family: Helvetica;
+    /* font-size: 16px; */
+}
+
+img {
+    width: 25%;
+    margin-bottom: 1em;
+}
+
+#left {
+    height: 1px;
+    float: left;
+    display: block;
+    min-width: 0;
+    overflow: hidden;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+  }
+
+#content {
+    margin-top: 50px;
+    /* margin-left: 10em; */
+    float: left;
+    width: 35em;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#content h1, #content h2, #content h3 {
+    font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
+    margin: 0;
+}
+
+
+/* #menu {
+    margin-top: 2em;
+    margin-right: 3em;
+    float: right;
+    font-size: 14px;
+    text-align: right;
+} */
+
+#menu {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-align: right;
+    width: 150px;
+    font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
+    font-size: 16px;
+  }
+  
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    font-size: 18px;
+}
